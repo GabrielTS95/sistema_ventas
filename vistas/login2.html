@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../public/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="../public/css/login.css">
+    <link rel="stylesheet" href="../public/css/font-awesome.css">
+
+  <title>Login</title>
+</head>
+<body>
+
+  <div class="container-fluid">
+      <div class="abs-center "> 
+        <form  id="formAcceso" method="POST" class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> 
+          <h1>Iniciar Sesión</h1>
+          <img src="../public/img/apple-touch-icon.png"  class="img img-responsive">
+          <label for="">Usuario</label>
+          <br/>
+          <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input id="logina" type="text" class="form-control" name="logina" placeholder="Usuario" required>
+          </div>
+          <br/>
+          <label for="">Contraseña</label>
+          <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+            <input id="clavea" type="password" class="form-control" name="clavea" placeholder="Password" required>
+          </div>
+            <br />
+          <div class="form-group">
+             <a href="">Olvide mi contraseña</a>
+          </div>
+            
+            <button class="btn btn-success btn-block" type="submit">Ingresar</button>
+
+
+        </form>
+      </div>
+    
+
+  </div>
+  <script src="../public/js/jquery-3.1.1.min.js"></script>
+  <script src="../public/bootstrap/js/bootstrap.js"></script>
+  <script src="../public/js/sweetalert2.js"></script>
+  <script type="text/javascript" src="ajax/login.js"></script>
+
+
+</body>
+</html>
