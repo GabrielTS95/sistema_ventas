@@ -1,5 +1,5 @@
 <?php
-
+// Prueba con  GITHUB NO TIENE NADA QUE VER. 
 //Utilizo require_once  para indicarle a php que si este archivo (global.php) esta incluido, que no me vuelva a incluir otra vez
 require_once "global.php";
 
